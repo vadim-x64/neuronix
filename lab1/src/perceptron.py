@@ -47,13 +47,13 @@ class Perceptron:
             self.training_errors.append(total_error)
 
             if total_error == 0:
-                print(f"Навчання завершено на епосі {epoch + 1}")
+                print(f"Навчання завершено на епосі {epoch + 1}!")
                 break
 
             epoch += 1
 
         if epoch == max_epochs:
-            print(f"Навчання завершено після {max_epochs} епох")
+            print(f"Навчання завершено після {max_epochs} епох!")
 
     # тестові дані без зміни ваг
     def evaluate(self, test_data, test_labels):
