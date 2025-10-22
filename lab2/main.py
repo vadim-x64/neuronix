@@ -63,6 +63,7 @@ plt.legend()
 plt.grid(True)
 plt.savefig(os.path.join(results_dir, 'model_results.png'))
 plt.show()
+
 plt.figure(figsize=(12, 5))
 plt.subplot(1, 2, 1)
 plt.plot(history.history['loss'], label='Втрати на навчанні (Loss)')
